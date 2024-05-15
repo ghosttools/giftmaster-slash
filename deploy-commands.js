@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
-const { clientId, guildId, token } = require("./config.json");
+const { clientId, guildId, token, globalDeploy } = require("./config.json");
 
 const commands = [];
 const commandFiles = fs
@@ -22,11 +22,20 @@ const rest = new REST({ version: "9" }).setToken(process.env.token || token);
 
 (async () => {
   try {
-    await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
-      body: commands,
-    });
+    if (globalDeploy) {
+      // Deploy commands globally
+      await rest.put(Routes.applicationCommands(clientId), {
+        body: commands,
+      });
+      console.log("\n✅ Successfully registered global application commands.");
+    } else {
+      // Deploy commands to a specific guild
+      await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
+  body: commands,
+});
 
-    console.log("\n✅ Successfully registered application commands.");
+      console.log("\n✅ Successfully registered guild-specific application commands.");
+    }
   } catch (error) {
     console.error(error);
   }

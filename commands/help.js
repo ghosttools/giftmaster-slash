@@ -23,7 +23,7 @@ module.exports = {
 			})
 			.setFooter(interaction.user.tag, interaction.user.displayAvatarURL({ dynamic: true, size: 64 }))
 			.setTimestamp()
-			.addField('Useful Links', `[**Website**](${config.website}) [**Discord**](https://dsc.gg/sciencegear)`);
+		embed.addField('USEFUL LINKS', `(${config.website}) [**Discord**](https://discord.gg/ghostaccounts)`);
 
 		await interaction.reply({ embeds: [commandListEmbed] });
 	},

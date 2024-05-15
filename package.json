@@ -7,12 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Science Gear",
+  "author": "Ghost",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^1.6.5",
     "@discordjs/rest": "^2.0.1",
     "@types/node": "^18.0.6",
+    "body-parser": "^1.20.2",
     "cat-loggr": "^1.2.2",
     "cookie-parser": "^1.4.6",
     "discord-api-types": "^0.37.56",

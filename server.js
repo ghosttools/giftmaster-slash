@@ -655,7 +655,7 @@ h2 {
 
 .inline-text {
   display: inline-block; /* Make the text inline */
-  margin-left: 5px; /* Add some spacing between "Made by" and "Science Gear" */
+  margin-left: 5px; /* Add some spacing between "Made by" and "GHOST" */
 }
 
 .floating-heart:hover {
@@ -669,7 +669,7 @@ h2 {
 
 <div class="floating-heart">
 		<i class="fas fa-heart"></i>
-		<div class="tooltip">Made with ❤️ By Science Gear</div>
+		<div class="tooltip">Made with ❤️ By Ghost Gear</div>
 	  </div>
 
 <script>
@@ -1481,7 +1481,7 @@ background-color: #0056b3;
   
   .inline-text {
     display: inline-block; /* Make the text inline */
-    margin-left: 5px; /* Add some spacing between "Made by" and "Science Gear" */
+    margin-left: 5px; /* Add some spacing between "Made by" and "GHOST" */
   }
   
   .floating-heart:hover {
@@ -1495,7 +1495,7 @@ background-color: #0056b3;
   
   <div class="floating-heart">
       <i class="fas fa-heart"></i>
-      <div class="tooltip">Made with ❤️ By Science Gear</div>
+      <div class="tooltip">Made with ❤️ By GHOST</div>
       </div>
   
   <script>
@@ -2183,7 +2183,7 @@ background-color: #0056b3;
 
 .inline-text {
   display: inline-block; /* Make the text inline */
-  margin-left: 5px; /* Add some spacing between "Made by" and "Science Gear" */
+  margin-left: 5px; /* Add some spacing between "Made by" and "Ghost Tools" */
 }
 
 .floating-heart:hover {
@@ -2197,7 +2197,7 @@ background-color: #0056b3;
 
 <div class="floating-heart">
 		<i class="fas fa-heart"></i>
-		<div class="tooltip">Made with ❤️ By Science Gear</div>
+		<div class="tooltip">Made with ❤️ By Ghost </div>
 	  </div>
 
 <script>
@@ -2560,7 +2560,7 @@ app.get('/edit/:folder/:filename', requireLogin, (req, res) => {
 
 .inline-text {
   display: inline-block; /* Make the text inline */
-  margin-left: 5px; /* Add some spacing between "Made by" and "Science Gear" */
+  margin-left: 5px; /* Add some spacing between "Made by" and "Ghost Tools" */
 }
 
 .floating-heart:hover {
@@ -2574,7 +2574,7 @@ app.get('/edit/:folder/:filename', requireLogin, (req, res) => {
 
 <div class="floating-heart">
 		<i class="fas fa-heart"></i>
-		<div class="tooltip">Made with ❤️ By Science Gear</div>
+		<div class="tooltip">Made with ❤️ By Ghost Gear</div>
 	  </div>
 
 <script>
@@ -2744,7 +2744,7 @@ app.post('/save/:folder/:filename', requireLogin, (req, res) => {
 
 .inline-text {
   display: inline-block; /* Make the text inline */
-  margin-left: 5px; /* Add some spacing between "Made by" and "Science Gear" */
+  margin-left: 5px; /* Add some spacing between "Made by" and "GHOST" */
 }
 
 .floating-heart:hover {
@@ -2758,7 +2758,7 @@ app.post('/save/:folder/:filename', requireLogin, (req, res) => {
 
 <div class="floating-heart">
 		<i class="fas fa-heart"></i>
-		<div class="tooltip">Made with ❤️ By Science Gear</div>
+		<div class="tooltip">Made with ❤️ By Ghost Gear</div>
 	  </div>
 
 <script>

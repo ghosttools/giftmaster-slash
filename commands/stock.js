@@ -15,7 +15,7 @@ module.exports = {
 		const embed = new MessageEmbed()
 			.setColor(config.color.default)
 			.setTitle(`${interaction.guild.name} Service Stock`)
-			.setDescription(`👋 Hello and welcome to **${interaction.guild.name}**! 🌟 We are here to provide you with the best services. 🚀`)
+			.setDescription(`👋 WHATS UP BITCHES **${interaction.guild.name}**! 🌟 WE ARE HERE TO PROVIDE YOU WITH THE BEST AGED ACCOUNTS. 🚀`)
 			.setFooter(config.footer)
 			.setImage(config.banner);
 
@@ -29,7 +29,7 @@ module.exports = {
 			embed.addField('Premium Services', premiumStockInfo, true);
 		}
 
-		embed.addField('Useful Links', `[**Website**](${config.website}) [**Discord**](https://dsc.gg/sciencegear)`);
+		embed.addField('USEFUL LINKS', `(${config.website}) [**Discord**](https://discord.gg/ghostaccounts)`);
 
 		interaction.reply({ embeds: [embed] });
 	},

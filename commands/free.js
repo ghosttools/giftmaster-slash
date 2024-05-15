@@ -36,8 +36,8 @@ module.exports = {
         if (generated.has(member.id)) {
             const cooldownEmbed = new MessageEmbed()
                 .setColor(config.color.red)
-                .setTitle('Cooldown!')
-                .setDescription(`Please wait **${config.genCooldown}** seconds before executing that command again!`)
+                .setTitle('CHILL DA FUCK OUT')
+                .setDescription(`Please wait **2 HOURS before executing that command again!**`)
                 .setFooter(interaction.user.tag, interaction.user.displayAvatarURL({ dynamic: true, size: 64 }))
                 .setTimestamp();
 
@@ -97,9 +97,19 @@ module.exports = {
                 member.send({ embeds: [embedMessage] })
                     .catch(error => console.error(`Error sending embed message: ${error}`));
                 interaction.reply({
-                    content: `**Check your DM ${member}!** __If you do not receive the message, please unlock your private!__`,
-                });
+                    content: `**ACCOUNTS SENT TO DMs ${member}!
+** **IF YOU DONT GET IT ITS COZ YOUR GAY! 
 
+NEXT GEN IS IN 2 HOURS
+
+ALSO JOIN AH64 TOOLS SERVER FOR 
+CHAIRS 
+AIOS 
+UNLOCKERS 
+AND MUCH MORE
+@AH64TOOLS**`,
+                        });
+                
                 generated.add(member.id);
                 setTimeout(() => {
                     generated.delete(member.id);
